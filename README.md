@@ -1,5 +1,6 @@
 # Project 4 Machine Learning Algorithms
-### Group 5:
+### Group 5
+
 Robert Soriano, Leon Lu, Nati, Aurelian
 
 **Goal:** Create a Text Spam Detector
