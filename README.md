@@ -1,5 +1,5 @@
 # Project 4 Spam or Ham?
-Group 5
+### Group 5
 Robert Soriano, Leon Lu, Nati, Aurelian
 
 **Goal:** Create a Text Spam Detector
