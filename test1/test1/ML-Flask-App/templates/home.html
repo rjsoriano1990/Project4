@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Home</title>
+</head> 
+
+<link rel="stylesheet" href="styles.css">
+<body>
+    <style>
+        body {
+          background-image: url('https://images2.minutemediacdn.com/image/upload/c_crop,h_1576,w_2800,x_0,y_52/f_auto,q_auto,w_1100/v1554931909/shape/mentalfloss/20997-istock-471531747.jpg');
+          background-repeat: no-repeat;
+          background-attachment: fixed;
+          background-size: cover;
+        }
+        </style>
+
+
+<div class = 'ml-container'>
+    <form action = "{{ url_for('predict')}}" method = 'POST'>
+    <p style=font-size:40px;text-align:Left>Enter Your Text</p>
+    <textarea name='text' rows='2' cols='50'></textarea>
+    <br>
+    <input style=font-size:40px; type='submit' class='btn-info' value='Predict'>
+    </form>
+</div>
+</body>
+</html>
